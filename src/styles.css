@@ -1,0 +1,115 @@
+:root {
+  --heading-font-family: "Rock Salt", cursive;
+  --secondary-heading-font-family: "Kristi", cursive;
+  --default-font-family: "Sarabun", sans-serif;
+  --default-font-color: white;
+  --secondary-color: #dbdcdf;
+  --background-color: #e3e3e3;
+}
+
+body {
+  background: var(--background-color);
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 68px;
+  color: var(--default-font-color);
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+h2 {
+  font-family: var(--secondary-heading-font-family);
+  font-size: 48px;
+  color: var(--secondary-color);
+}
+
+h3 {
+  line-height: 30px;
+}
+
+h3,
+p {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #191b1e;
+  color: white;
+  padding: 4px;
+  font-family: var(--default-font-family);
+}
+
+footer .email-link a {
+  text-decoration: none;
+  font-size: 18px;
+}
+a {
+  color: white;
+}
+
+a:hover {
+  color: #d9dad7;
+}
+
+.hero {
+  background-image: url("../images/china-street.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.intro-blurb {
+  background: #fafafa;
+  font-size: 12px;
+}
+
+.intro-text {
+  padding: 20px 20px;
+}
+
+.card-title {
+  font-family: var(--secondary-heading-font-family);
+  font-size: 36px;
+}
+
+.card-text {
+  font-family: var(--default-font-family);
+}
+
+.btn-secondary {
+  font-family: var(--secondary-heading-font-family);
+  font-size: 24px;
+}
+
+.section-headings {
+  color: black;
+}
+
+@media (max-width: 860px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}
