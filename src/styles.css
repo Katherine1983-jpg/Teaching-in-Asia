@@ -112,4 +112,12 @@ a:hover {
   h3 {
     font-size: 14px;
   }
+
+  footer .email-link {
+    font-size: 12px;
+  }
+
+  footer .email-link a {
+    font-size: 12px;
+  }
 }
